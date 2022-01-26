@@ -6,7 +6,7 @@ from src.app import get_doc_owner_name, get_all_doc_owners_names,delete_doc,appe
 
 
 
-class TestCheckDocument(unittest.TestCase):
+class TestApp(unittest.TestCase):
     
     @patch('src.app.input', lambda *args:'2207 876234')
     def test_get_get_doc_owner_name(self):
