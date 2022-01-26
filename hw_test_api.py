@@ -8,9 +8,6 @@ import sys
 
 class TestApi(unittest.TestCase):
     
-    def setUp(self):
-        folder = 'test'
-    
     def test_сreate_folder(self):
         result = create_folder('test')
         if result == 201:
